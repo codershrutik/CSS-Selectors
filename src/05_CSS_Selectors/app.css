@@ -32,3 +32,17 @@ span{
 .post a{
     color: #457B9D;
 }
+
+footer a{
+    color: #E63946;
+}
+
+/* adjacent selectors */
+h2 + button {
+    font-size: 20px;
+}
+
+/* direct child decendant */
+footer > a{
+    color: #A8DADC;
+}
