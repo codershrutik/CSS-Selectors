@@ -21,8 +21,14 @@ span{
     color: #457B9D;
 }
 
+/* class selector */
 .tag{
     background-color: #E63946;
     color: #F1FAEE;
     font-size: 16px;
+}
+
+/* descendent selector */
+.post a{
+    color: #457B9D;
 }
