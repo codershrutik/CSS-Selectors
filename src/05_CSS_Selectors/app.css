@@ -57,6 +57,7 @@ a[href*="google"]{
     color: magenta;
 }
 
+/* pseudo-classes */
 .post button :hover{
     background-color: #E63946;
     color: #F1FAEE;
@@ -72,4 +73,21 @@ a[href*="google"]{
 
 .post: :nth-of-type(2n){
     background-color: #DFE8DC;
+}
+
+/* pseudo-elements */
+h2::first-letter{
+    font-size: 40px;
+}
+
+p::first-line{
+    color: #E63946;
+}
+
+p::selection{
+    background-color: bisque;
+}
+
+button:hover{
+    background-color: olive;
 }
